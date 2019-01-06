@@ -2,3 +2,11 @@ server.port: 9002
 spring.cloud.config.discovery.enabled: true
 spring.cloud.config.discovery.service-id: zuulsvr
 management.security.enabled: false
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
