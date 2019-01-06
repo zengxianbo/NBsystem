@@ -1,1 +1,1 @@
-port: 8801
+spring.port: 8801
