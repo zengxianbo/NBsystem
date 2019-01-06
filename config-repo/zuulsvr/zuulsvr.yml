@@ -1,5 +1,6 @@
 spring.port: 8802
 zuul: 
+  ignored-services: '*'
   routes: 
     organizationservice: /organization/**
     licensingservice: /licensing/**
