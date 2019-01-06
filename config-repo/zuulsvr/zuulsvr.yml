@@ -2,3 +2,4 @@ spring.port: 8802
 zuul: 
   routes: 
     organizationservice: /organization/**
+    licensingservice: /licensing/**
