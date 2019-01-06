@@ -1,1 +1,4 @@
 spring.port: 8802
+zull: 
+  routes: 
+    organizationservice: /organization/**
