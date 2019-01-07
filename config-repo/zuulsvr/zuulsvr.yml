@@ -5,3 +5,13 @@ zuul:
   routes: 
     organizationservice: /organization/**
     licensingservice: /licensing/**
+hystrix:
+  command: #替换具体的服务名
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+licensingservice: 
+  ribbon: 
+    ReadTimeout: 6000
