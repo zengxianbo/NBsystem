@@ -11,7 +11,10 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 10001
+            timeoutInMilliseconds: 60000
 licensingservice: 
   ribbon: 
-    ReadTimeout: 10000
+    ReadTimeout: 50000
+    ConnectTimeout: 50000
+    MaxAutoRetries: 0
+    MaxAutoRetriesNextServer: 1
