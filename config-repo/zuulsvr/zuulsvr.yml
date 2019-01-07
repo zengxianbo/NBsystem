@@ -19,5 +19,4 @@ licensingservice:
     maxAutoRetries: 1
     MaxAutoRetriesNextServer: 2
     OkToRetryOnAllOperations: true
-    MaxAutoRetriesNextServer: 2
-    MaxAutoRetries: 1
+spring.cloud.loadbalancer.retry.enabled: true
