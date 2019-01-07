@@ -18,3 +18,8 @@ licensingservice:
     ConnectTimeout: 50000
     MaxAutoRetries: 0
     MaxAutoRetriesNextServer: 1
+ribbon: 
+    ReadTimeout: 50000
+    ConnectTimeout: 50000
+    MaxAutoRetries: 0
+    MaxAutoRetriesNextServer: 1
