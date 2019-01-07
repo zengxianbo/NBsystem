@@ -1,4 +1,4 @@
-server.port: 9002
+server.port: 0
 spring.cloud.config.discovery.enabled: true
 spring.cloud.config.discovery.service-id: zuulsvr
 management.security.enabled: false
