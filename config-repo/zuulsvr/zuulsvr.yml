@@ -16,3 +16,5 @@ licensingservice:
   ribbon: 
     ReadTimeout: 5000
     ConnectTimeout: 5000
+    maxAutoRetries: 1
+    MaxAutoRetriesNextServer: 2
