@@ -12,9 +12,14 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
+hystrix:
+  licensingservice: #替换具体的服务名
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
 licensingservice: 
   ribbon: 
     ReadTimeout: 50000
-licensingservice: 
-  ribbon: 
     ConnectTimeout: 50000
