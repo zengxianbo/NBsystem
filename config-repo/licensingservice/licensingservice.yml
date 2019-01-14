@@ -10,3 +10,13 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka/
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://192.168.217.128:3306/db_example?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: {cipher}8a1186b62efe9b5d9afed4622dd1f6bd5a8cf13b96cfbdc38505b193c1978b5f
+    
