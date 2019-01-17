@@ -14,7 +14,7 @@ eureka:
 spring:
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
   datasource:
     url: jdbc:mysql://192.168.217.128:3306/db_example?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
