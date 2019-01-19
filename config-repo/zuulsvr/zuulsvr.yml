@@ -5,6 +5,7 @@ zuul:
   routes: 
     organizationservice: /organization/**
     licensingservice: /licensing/**
+  debug.request: true
 hystrix:
   command: #替换具体的服务名
     default:
