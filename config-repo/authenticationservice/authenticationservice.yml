@@ -1,0 +1,26 @@
+
+spring.cloud.config.discovery.enabled: true
+example.property: IM HERE
+spring.cloud.config.discovery.service-id: zuulsvr
+management.security.enabled: false
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://192.168.217.128:3306/db_example?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: "{cipher}8a1186b62efe9b5d9afed4622dd1f6bd5a8cf13b96cfbdc38505b193c1978b5f"
+    
+    
+    
+    
