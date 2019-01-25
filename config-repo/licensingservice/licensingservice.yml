@@ -1,7 +1,7 @@
 
 spring.cloud.config.discovery.enabled: true
 example.property: IM HERE
-spring.cloud.config.discovery.service-id: zuulsvr
+spring.cloud.config.discovery.service-id: confsvr
 management.security.enabled: false
 eureka:
   instance:
